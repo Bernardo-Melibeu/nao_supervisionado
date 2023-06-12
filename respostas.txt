@@ -1,0 +1,55 @@
+Repositorio Github:
+
+
+Escolha de base de dados
+1.[feito]
+
+2. Quantos países existem no dataset?
+R: 167
+
+3. analise.ipynb
+
+4. preparo.py
+
+
+
+Clusterização
+
+1.a. ex.ipynb seção Clusterização-K-means
+
+b. ex.ipynb seção Clusterização-Hierarquico
+
+2.a.i. ex.ipynb seção Clusterização-K-means, subseção dimensões
+
+ii. ex.ipynb seção Clusterização-K-means, subseção centro em país
+
+
+3. ex.ipynb seção Clusterização-Hierarquico, subseção dendograma
+
+O que vemos é um primeiro cluster verde que contém países desenvolvidos(em sua maioria europeus), um segundo cluster cinza que contém paises sub-desenvolvidos(na maioria africanos), e, por fim,
+um terceiro cluster mais genérico abrange países que estão em desenvolvimento.
+
+
+
+
+4. ex.ipynb seção Comparação de resultados de Clusterização, e arquivo dicionario_comparacao.json
+
+
+
+Escolha de algoritmos
+
+1.  1) Escolher pontos na base para ser os clusters iniciais.
+    2) Calcular a distância de todos os pontos restantes e atribuímos eles aos clusters com a menor distância.
+    3) Calcular e marcar o novo centro de cada cluster.
+    repetir 2 e 3 até que não aconteça mudanças.
+
+2. ex.ipynb seção Clusterização-K-medoid.
+
+
+3. Sim. O algoritmo K-médias utiliza de médias para fazer o agrupamento. Médias,em via de regra, são facilmente distorcidas por outliers pelo fato dos valores elevados puxar a média mais perto dos pólos extremos.
+
+
+4. Por se tratar de uma análise de vizinhos próximos, o DBSCAN consegue,com mais facilidade, isolar possíveis outliers.
+
+
+
